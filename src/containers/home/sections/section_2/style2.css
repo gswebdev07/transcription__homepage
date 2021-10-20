@@ -1,0 +1,81 @@
+#span2{
+position: absolute;
+width: 59.4rem;
+height: 12.2rem;
+left: 13.4rem;
+top: 27.8rem;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 4.6rem;
+line-height: 6.1rem;
+
+color: #363742;
+}
+
+#span3{
+position: absolute;
+width: 58.4rem;
+height: 6rem;
+left: 13.4rem;
+top: 41.9rem;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 2.2rem;
+line-height: 3rem;
+
+color: #474852;
+}
+
+.start{
+position: absolute;
+width: 19.8rem;
+height: 5.4rem;
+left: 13.4rem;
+top: 52.5rem;
+
+background: #FF1B47;
+border-radius: 3rem;
+border-style: none;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 700;
+font-size: 2rem;
+line-height: 2.4rem;
+
+color: #FFFFFF;
+}
+
+.cmp{
+position: absolute;
+width: 64.8rem;
+height: 42.1rem;
+left: 77.4rem;
+top: 22.3rem;
+}
+
+#span4{
+position: absolute;
+width: 32.7rem;
+height: 2.7rem;   
+left: 59.9rem;
+top: 62.1rem;
+
+font-weight: 700;
+font-size: 2.1rem;
+line-height: 27rem;
+
+color: #FF1B47;
+}
+
+.orgs{
+position: absolute;
+width: 112.4rem;
+height: 7.8rem;
+left: 19.8rem;
+top: 79.6rem;
+}

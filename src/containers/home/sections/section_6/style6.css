@@ -1,0 +1,124 @@
+#facebook{
+position: absolute;
+width: 45.7rem;
+height: 9.8rem;
+left: 10.4rem;
+top: 254.7rem;
+
+font-weight: bolder;
+font-size: 3.2rem;
+line-height: 154.4%;
+
+color: #363742;
+}
+
+#facebook span{
+color: #FF1B47;
+}
+
+#facebook2{
+position: absolute;
+width: 42.9rem;
+height: 9.9rem;
+left: 10.4rem;
+top: 265.7rem;
+
+font-weight: normal;
+font-size: 2.1rem;
+line-height: 155.9%;
+/* or 33px */
+
+color: #474852;
+}
+
+#FB{
+position: absolute;
+width: 53.5rem;
+height: 32.7rem;
+left: 78.39rem;
+top: 247.8rem;
+}
+
+#YT{
+position: absolute;
+width: 50.5rem;
+height: 34.6rem;
+left: 20.3rem;
+top: 290rem;
+}
+
+#youtube{
+position: absolute;
+width: 48.2rem;
+height: 9.8rem;
+left: 93.9rem;
+top: 294.1rem;
+
+font-weight: bolder;
+font-size: 3.2rem;
+line-height: 154.4%;
+/* or 49px */
+
+color: #363742;
+}
+
+#youtube span{
+color: #FF1B47;
+}
+
+#youtube2{
+position: absolute;
+width: 47.1rem;
+height: 16.5rem;
+left: 93.9rem;
+top: 304.9rem;
+
+font-weight: normal;
+font-size: 2.1rem;
+line-height: 155.9%;
+/* or 33px */
+
+color: #474852;
+}
+
+#revenue{
+position: absolute;
+width: 49.3rem;
+height: 9.8rem;
+left: 10.4rem;
+top: 339.9rem;
+
+font-weight: bolder;
+font-size: 3.2rem;
+line-height: 154.4%;
+/* or 49px */
+
+color: #363742;
+}
+
+#revenue span{
+color: #FF1B47;
+}
+
+#revenue2{
+position: absolute;
+width: 42.9rem;
+height: 9.9rem;
+left: 10.4rem;
+top: 350.9rem;
+
+font-weight: normal;
+font-size: 2.1rem;
+line-height: 155.9%;
+/* or 33px */
+
+color: #474852;
+}
+
+#R{
+position: absolute;
+width: 50rem;
+height: 34.16rem;
+left: 80.36rem;
+top: 332.69rem;
+}

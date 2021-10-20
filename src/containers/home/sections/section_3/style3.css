@@ -1,0 +1,187 @@
+#span5{
+position: absolute;
+width: 21.2rem;
+height: 4.2rem;
+left: 65.4rem;
+top: 94.6rem;
+
+font-weight: bold;
+font-size: 3.2rem;
+line-height: 130.9%;
+
+color: #363742;
+}
+
+#rec3{
+display: flex;
+flex-direction: row;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.2);
+box-sizing: border-box;
+box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+border-radius: 2.5rem;
+}
+
+.subtitles{
+position: absolute;
+width: 63.1rem;
+height: 25.8rem;
+left: 10.4rem;
+top: 105.3rem;
+}
+
+.box1{
+display: flex;
+flex-direction: column;
+}
+
+.sub{
+width: 12.4rem;
+height: 3.3rem;
+margin-left: 23.7rem;
+margin-top: 4.1rem;
+
+font-weight: 700;
+font-size: 2.7rem;
+line-height: 3.3rem;
+/* identical to box height */
+
+color: #000000;
+}
+
+#span6{
+width: 31rem;
+height: 3rem;
+margin-left: 22.7rem;
+margin-top: 2.1rem;
+
+font-weight: 500;
+font-size: 2.2rem;
+line-height: 3rem;
+
+color: #474852;
+}
+
+.btn3{
+margin-top: 17rem;
+position: absolute;
+border-radius: 3rem;
+border-style: none;
+
+font-weight: 600;
+font-size: 2rem;
+line-height: 2.4rem;
+}
+
+#learn1{  
+width: 17.1rem;
+height: 5.4rem;
+margin-left: 22.7rem;
+
+background: #FFE0E2;
+color: #FF1B47;
+}
+
+#start1{
+position: absolute;
+width: 17.2rem;
+height: 5.4rem;
+margin-left: 42.5rem;
+
+background: #FF1B47;
+color: #FFFFFF;
+}
+
+.pink{
+position: absolute;
+width: 19.7rem;
+height: 25.8rem;
+left: 10.4rem;
+top: 105.3rem;
+
+background: #FFE0E2;
+border-radius: 2.5rem;
+}
+
+
+.transcription{
+position: absolute;
+width: 63.1rem;
+height: 25.8rem;
+left: 79rem;
+top: 105.3rem;
+}
+
+.trans{
+width: 18.5rem;
+height: 3.3rem;
+margin-left: 23.7rem;
+margin-top: 4.1rem;
+
+font-weight: 700;
+font-size: 2.7rem;
+line-height: 3.3rem;
+
+color: #000000;
+}
+
+#span7{
+width: 29.6rem;
+height: 3rem;  
+
+font-weight: 500;
+font-size: 2.2rem;
+line-height: 3rem;
+
+margin-left: 22.7rem;
+margin-top: 2.1rem;
+
+color: #474852;
+}
+
+#learn2{
+position: absolute;
+width: 17.1rem;
+height: 5.4rem;
+margin-left: 22.7rem;
+
+background: #CFDAFF;;
+color: #3E59E9;
+}
+
+#start2{
+position: absolute;
+width: 17.2rem;
+height: 5.4rem;
+margin-left: 42.5rem;
+
+background: #3E59E9;
+color: #FFFFFF;
+}
+
+.blue{
+position: absolute;
+width: 19.7rem;
+height: 25.8rem;
+left: 79rem;
+top: 105.3rem;
+
+background: #CFDAFF;
+border-radius: 2.5rem;
+}
+
+.subs{
+position: absolute;
+left: 0.5rem;
+top: 7.2rem;
+width: 19rem;
+height: 12rem;
+}
+
+.tran{
+position: absolute;
+left: 2rem;
+top: 5.2rem;
+width: 15.2rem;
+height: 15.58rem;
+}

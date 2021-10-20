@@ -1,0 +1,108 @@
+#span8{
+position: absolute;
+width: 37.3rem;
+height: 4.2rem;
+left: 57.3rem;
+top: 142.4rem;
+
+font-weight: bold;
+font-size: 3.3rem;
+line-height: 130.9%;
+/* identical to box height, or 42px */
+
+color: #363742;
+}
+
+#span9{
+position: absolute;
+width: 84rem;
+height: 2.7rem;
+left: 34rem;
+top: 149.1rem;
+
+font-weight: normal;
+font-size: 2.1rem;
+line-height: 130.9%;
+/* or 27px */
+
+color: #474852;
+}
+
+#spain{
+position: absolute;
+left: 14.9rem;
+top: 159.5rem;
+}
+
+#britain{
+position: absolute;
+left: 40.9rem;
+top: 159.5rem;
+}
+
+#germany{
+position: absolute;
+left: 66.9rem;
+top: 159.5rem;
+}
+
+#france{
+position: absolute;
+left: 92.9rem;
+top: 159.5rem;
+}
+
+#italy{
+position: absolute;
+left: 118.9rem;
+top: 159.5rem;
+}
+
+.lang{
+position: absolute;
+top: 174.2rem;
+
+font-weight: 600;
+font-size: 2.1rem;
+line-height: 130.9%;
+
+color: #363742;
+}
+
+#sp{
+left: 19.4rem;
+}
+
+#eng{
+left: 46.4rem;
+}
+
+#ger{
+left: 72.3rem;
+}
+
+#fr{
+left: 98.8rem;
+}
+
+#it{
+left: 124.8rem;
+}
+
+.all{
+position: absolute;
+width: 28.5rem;
+height: 5.4rem;
+left: 61.7rem;
+top: 182.9rem;
+
+background: #FFE0E2;
+border-radius: 3rem;
+border-style: none;
+
+font-weight: 700;
+font-size: 2rem;
+line-height: 2.4rem;
+
+color: #FF1B47;
+}

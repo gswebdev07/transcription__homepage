@@ -1,0 +1,72 @@
+.logo{
+position: absolute;
+height: 6.3rem;
+width: 6.3rem;
+left: 10.4rem;
+top:4.7rem;  
+}
+
+#span1{
+position: absolute;
+width: 8.5rem;
+height: 3rem;
+left: 18.2rem;
+top: 6.7rem;
+
+font-family: 'Roboto';
+font-weight: bolder;
+font-size: 2.4rem;
+line-height: 2.8rem;
+
+color: #FF1B47;
+}
+
+.opts{
+position: absolute;
+width: 38.8rem;
+width: 50rem;
+height: 2.4rem;
+left: 30.1rem;
+top: 6.9rem;
+
+font-weight: normal;
+font-size: 2rem;
+line-height: 2.4rem;
+
+color: #00264F;
+}
+
+
+.login{
+position: absolute;
+width: 16.0rem;
+height: 5.4rem;
+left: 100.7rem;
+top: 5.1rem;
+
+background: #FFE0E2;
+border-radius: 3rem;
+border-style: none;
+
+font-weight: 700;
+font-size: 2rem;
+line-height: 2.4rem;
+color: #FF1B47;
+}
+
+.getStarted{
+position: absolute;
+width: 23.2rem;
+height: 5.4rem;
+left: 119.4rem;
+top: 5.1rem;
+
+background: #FF1B47;
+border-radius: 3rem;
+border-style: none;
+
+font-weight: 700;
+font-size: 2rem;
+line-height: 2.4rem;
+color: #FFFFFF;
+}
