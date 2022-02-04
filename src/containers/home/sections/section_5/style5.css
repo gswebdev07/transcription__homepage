@@ -1,212 +1,175 @@
+.perdiv{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
 #span10{
-position: absolute;
 width: 70.3rem;
 height: 4.2rem;
-left: 40.8rem;
-top: 199.6rem;
+margin-top: 13rem;
 
 font-weight: bold;
 font-size: 3.2rem;
 line-height: 130.9%;
-/* identical to box height, or 42px */
-
-
 color: #363742;
 }
 
 #span11{
-position: absolute;
-width: 99.7rem;
-height: 2.7rem;
-left: 26.1rem;
-top: 206.9rem;
-
+margin-left: 3rem;
+margin-right: 3rem;
+margin-top: 3rem;
 font-weight: normal;
 font-size: 2.1rem;
 line-height: 130.9%;
-/* or 27px */
-
 color: #474852;
 }
 
-.per{
+.perdiv2{
 display: flex;
 flex-direction: row;
+align-items: center;
+}
+
+.recdiv{
+display: flex;
+flex-direction: column;
+margin-top: 6.3rem;
 }
 
 .rec5{
-position: absolute;
 width: 29.5rem;
 height: 18.6rem;
-top: 215.9rem;
 
 background: #FFFFFF;
-border: 1px solid rgba(0, 0, 0, 0.2);
+border: 0.1rem solid rgba(0, 0, 0, 0.2);
 box-sizing: border-box;
-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+box-shadow: 0.4rem 0.4rem 1rem rgba(0, 0, 0, 0.25);
 border-radius: 2.5rem;
 }
 
 .rec51{
-position: absolute;
 width: 29.5rem;
 height: 7.5rem;
-top: 215.9rem;
-
+margin-top: -18.6rem;
 border-radius: 2.5rem 2.5rem 0px 0px;
 }
 
-#blue{
-left: 10.4rem;
-}
-
-#b{
-position: absolute;
+.perspan{
 width: 25.4rem;
 height: 6.9rem;
-margin-left: 2rem;
-margin-top: 10rem;
+margin-top: 9.9rem;
+display: inline-block;
 
 font-weight: normal;
 font-size: 1.5rem;
 line-height: 155%;
-/* or 23px */
-
 text-align: center;
-
 color: #474852;
 }
 
-#blue2{
-left: 10.4rem;
-background: #012169;
-}
-
-#b2{
+.perspan2{
 display: inline-block;
 margin-top:1.5rem;
-margin-left: 11.5rem;
 
 font-weight: bolder;
 font-size: 3.5rem;
 line-height: 130.9%;
-/* identical to box height, or 46px */
-
 color: #FFFEFE;
 }
 
-#green{
-left: 44.4rem;
+#green, #green2, #lblue, #lblue2, #pink, #pink2{
+margin-left: 4.5rem;
 }
 
-#g{
-position: absolute;
-width: 25.4rem;
-height: 6.9rem;
-margin-left: 2rem;
-margin-top: 11rem;
-
-font-weight: normal;
-font-size: 1.5rem;
-line-height: 155%;
-
-text-align: center;
-
-color: #474852;
-}
-
-#green2{
-left: 44.4rem;
-background: #008241;
-}
-
-#g2{
-display: inline-block;
-margin-top:1.5rem;
-margin-left: 11.5rem;
-
-font-weight: bolder;
-font-size: 3.5rem;
-line-height: 130.9%;
-/* identical to box height, or 46px */
-
-color: #FFFEFE;
-}
-
-#lblue{
-left: 78.4rem;
-}
-
-#lb{
-position: absolute;
-width: 25.4rem;
-height: 6.9rem;
-margin-left: 2rem;
-margin-top: 11rem;
-
-font-weight: normal;
-font-size: 1.5rem;
-line-height: 155%;
-/* or 23px */
-
-text-align: center;
-
-color: #474852;
-}
-
-#lblue2{
-left: 78.4rem;
-background: #0063B3;
-}
-
-#lb2{
-display: inline-block;
-margin-top:1.5rem;
-margin-left: 11rem;
-
-font-weight: bolder;
-font-size: 3.5rem;
-line-height: 130.9%;
-/* identical to box height, or 46px */
-
-color: #FFFEFE;
-}
-
-#pink{
-left: 112.4rem;
+#g, #lb{
+margin-top: 10.8rem;
 }
 
 #p{
-position: absolute;
-width: 25.4rem;
-height: 6.9rem;
-margin-left: 2rem;
 margin-top: 12rem;
+}
 
-font-weight: normal;
-font-size: 1.5rem;
-line-height: 155%;
-/* or 23px */
+#blue2{
+background: #012169;
+}
 
-text-align: center;
+#green2{
+background: #008241;
+}
 
-color: #474852;
+#lblue2{
+background: #0063B3;
 }
 
 #pink2{
-left: 112.4rem;
 background: #FF1B47;
 }
 
-#p2{
-display: inline-block;
-margin-top:1.5rem;
-margin-left: 11.5rem;
+@media (max-width: 800px){
+.perdiv2{
+flex-wrap: wrap;
+justify-content: center;  
+justify-content: space-evenly;
+}
+.recdiv{
+flex-basis: 34%;
+}
+#blue, #blue2{
+margin-left: 4.5rem;
+}
+#lblue,  #pink{
+margin-top: 10rem;
+}
+}
 
-font-weight: bolder;
-font-size: 3.5rem;
-line-height: 130.9%;
-/* identical to box height, or 46px */
+@media (max-width: 500px){
+.perdiv2{
+flex-wrap: wrap;
+justify-content: center;  
+justify-content: space-evenly;
+}
+.recdiv{
+flex-basis: 34%;
+}
+.perspan{
+margin-top: 8.5rem;
+font-size: 1.8rem;
+}
+.perspan2{
+margin-top: 2rem;
+}
+#green, #green2, #pink, #pink2{
+margin-right: 4rem;
+}
+#g, #p{
+margin-top: 10.3rem;
+}
+#lb{
+margin-top: 9.2rem;
+}}
 
-color: #FFFEFE;
+@media (max-width: 361px){
+.rec5{
+width: 27.5rem;
+height: 17rem;
+}
+.rec51{
+width: 27.5rem;
+height: 7rem;
+}
+.perspan{
+margin-top: 7rem;
+}
+.perspan2{
+margin-top: 1.5rem;
+}
+#g, #p{
+margin-top: 8.7rem;
+}
+#lb{
+margin-top: 7rem;
+} 
+
 }

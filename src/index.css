@@ -5,10 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #E5E5E5;
+  /* background: #E5E5E5; */
 
   font-family: Montserrat;
   font-style: normal;
+
 }
 
 code {

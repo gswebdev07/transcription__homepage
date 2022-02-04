@@ -1,14 +1,24 @@
-#facebook{
-position: absolute;
-width: 45.7rem;
-height: 9.8rem;
-left: 10.4rem;
-top: 254.7rem;
+.per2div{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 35rem;
+}
 
+.per2div2{
+display: flex;
+flex-direction: column;
+flex-basis: 34%;
+}
+
+#f{
+margin-right: 15.5rem;
+}
+
+#facebook{
 font-weight: bolder;
 font-size: 3.2rem;
 line-height: 154.4%;
-
 color: #363742;
 }
 
@@ -17,48 +27,36 @@ color: #FF1B47;
 }
 
 #facebook2{
-position: absolute;
-width: 42.9rem;
-height: 9.9rem;
-left: 10.4rem;
-top: 265.7rem;
-
+margin-top: 1.2rem;
 font-weight: normal;
 font-size: 2.1rem;
 line-height: 155.9%;
-/* or 33px */
-
 color: #474852;
 }
 
 #FB{
-position: absolute;
 width: 53.5rem;
 height: 32.7rem;
-left: 78.39rem;
-top: 247.8rem;
+margin-top: -10rem;
+margin-right: 10.5rem;
 }
 
 #YT{
-position: absolute;
 width: 50.5rem;
 height: 34.6rem;
-left: 20.3rem;
-top: 290rem;
+margin-right: 23rem;
+margin-top: 10rem;
+}
+
+#y{
+margin-left: 15rem;
 }
 
 #youtube{
-position: absolute;
-width: 48.2rem;
-height: 9.8rem;
-left: 93.9rem;
-top: 294.1rem;
-
+margin-top: 15rem;
 font-weight: bolder;
 font-size: 3.2rem;
 line-height: 154.4%;
-/* or 49px */
-
 color: #363742;
 }
 
@@ -67,32 +65,24 @@ color: #FF1B47;
 }
 
 #youtube2{
-position: absolute;
-width: 47.1rem;
-height: 16.5rem;
-left: 93.9rem;
-top: 304.9rem;
-
+margin-top: 1.2rem;
 font-weight: normal;
 font-size: 2.1rem;
 line-height: 155.9%;
-/* or 33px */
-
 color: #474852;
 }
 
+#r{
+margin-left: 6.4rem;
+margin-right: 20rem;
+}
+
 #revenue{
-position: absolute;
-width: 49.3rem;
-height: 9.8rem;
-left: 10.4rem;
-top: 339.9rem;
+margin-top: 15rem;
 
 font-weight: bolder;
 font-size: 3.2rem;
 line-height: 154.4%;
-/* or 49px */
-
 color: #363742;
 }
 
@@ -101,24 +91,138 @@ color: #FF1B47;
 }
 
 #revenue2{
-position: absolute;
-width: 42.9rem;
-height: 9.9rem;
-left: 10.4rem;
-top: 350.9rem;
+margin-top: 1.2rem;
 
 font-weight: normal;
 font-size: 2.1rem;
 line-height: 155.9%;
-/* or 33px */
-
 color: #474852;
 }
 
 #R{
-position: absolute;
 width: 50rem;
 height: 34.16rem;
-left: 80.36rem;
-top: 332.69rem;
+margin-right: 14rem;
+margin-top: 10rem;
+}
+
+
+@media (min-width: 800px){
+#facebook2{
+width: 42.9rem;
+height: 9.9rem;
+}
+#youtube2{
+width: 47.1rem;
+height: 16.5rem;
+}
+#revenue2{
+width: 42.9rem;
+height: 9.9rem;
+}
+}
+
+@media (min-width: 2000px){
+#facebook, #youtube, #revenue{
+width: 48.2rem;
+}
+#facebook, #facebook2, #revenue, #revenue2{
+margin-left: 20rem;
+}
+#FB, #R{
+margin-right: 65rem;
+}
+#youtube, #youtube2{
+margin-left: 30rem;
+}
+#YT{
+margin-right: 10rem;
+}
+}
+
+@media (max-width: 800px){
+#FB{
+width: 33rem;
+height: 20rem;
+}
+#f{
+margin-top: -10rem;
+}
+#YT{
+width: 30rem;
+height: 20rem;
+margin-right: 10rem;
+}
+#R{
+width: 30rem;
+height: 20rem;
+margin-right: 10rem;
+}
+#r{
+margin-right: 10rem;
+}}
+
+
+@media (max-width: 800px){
+#YT{
+margin-top: 17rem;
+}
+#R{
+margin-right: 10rem;
+margin-top: 17rem;
+}
+}
+
+@media (max-width: 600px){
+#FB{
+width: 32rem;
+height: 20rem;
+margin-top: -7rem;
+}
+#f{
+margin-left: 3rem;
+margin-right: 8rem;
+}
+#YT{
+width: 35rem;
+height: 22.5rem;
+margin-top: 17rem;
+}
+#y{
+margin-left: 2rem;
+}
+#youtube{
+margin-top: 10rem;
+}
+#R{
+width: 33rem;
+height: 22rem;
+margin-right: 10rem;
+margin-top: 17rem;
+}
+#r{
+margin-top: -5rem;
+margin-right: 8rem;
+}
+}
+
+@media (max-width: 530px){
+#FB{
+margin-right: 5rem;
+margin-top: 0.2rem;
+}
+#R{
+margin-right: 1rem;
+}}
+
+@media (max-width: 370px){
+#f, #YT, #r{
+margin-right: 5rem;
+}
+#y{
+margin-right: 2rem;
+}
+#r{
+margin-left: 1rem;
+}
 }

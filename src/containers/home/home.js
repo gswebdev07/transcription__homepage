@@ -13,8 +13,7 @@ import Features from './sections/section_8/features';
 export default function Home() {
 
     return (
-        <div>
-            <canvas className="canvas"> </canvas>
+        <div id="main">
             <Bar></Bar>
             <Start></Start>
             <Services></Services>

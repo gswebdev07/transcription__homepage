@@ -1,131 +1,76 @@
+.formatsdiv{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
 #span12{
-position: absolute;
 width: 39.8rem;
 height: 4.2rem;
-left: 56.1rem;
-top: 378rem;
+margin-top: 13rem;
 
 font-weight: bold;
 font-size: 3.2rem;
 line-height: 130.9%;
-/* or 27px */
-
 color: #474852;
 }
 
 #span13{
-position: absolute;
-width: 119.1rem;
-height: 5.4rem;
-left: 16.9rem;
-top: 383rem;
+margin-left: 3rem;
+margin-right: 3rem;
+margin-top: 3rem;
 
 font-weight: normal;
 font-size: 2.1rem;
 line-height: 130.9%;
-
 color: #474852;
 }
 
-.formats{
-position: absolute;
-border: 1px solid #363742;
+.formatbtns{
+margin-left: 10.5rem;
+margin-right: 4rem;
+margin-top: 2.7rem;
+display: flex;
+flex-wrap: wrap;
+}
+
+.format{
+margin-left: 2rem;
+margin-right: 2rem;
+margin-top: 3.8rem;
+width: 12.9rem;
+height: 5.8rem;
+border: 0.1rem solid #363742;
 box-sizing: border-box;
 border-radius: 2.5rem;
 background: white;
 
-font-family: Montserrat;
-font-style: normal;
 font-weight: bolder;
 font-size: 2.5rem;
 line-height: 130.9%;
-
 color: #363742;
-}
-
-#txt{
-width: 12.9rem;
-height: 5.8rem;
-left: 16.6rem;
-top: 394.9rem;
-}
-
-#word{
-width: 12.9rem;
-height: 5.8rem;
-left: 33.5rem;
-top: 394.9rem;
-}
-
-#pdf{
-width: 12.9rem;
-height: 5.8rem;
-left: 50.4rem;
-top: 394.9rem;
-}
-
-#json{
-width: 12.9rem;
-height: 5.8rem;
-left: 67.3rem;
-top: 394.9rem;
 }
 
 #max{
 width: 17.9rem;
 height: 5.8rem;
-left: 84.2rem;
-top: 394.9rem;
-}
-
-#vtt{
-width: 12.9rem;
-height: 5.8rem;
-left: 106.1rem;
-top: 394.9rem;
-}
-
-#srt{
-width: 12.9rem;
-height: 5.8rem;
-left: 123rem;
-top: 394.9rem;
-}
-
-#stl{
-width: 12.9rem;
-height: 5.8rem;
-left: 16.6rem;
-top: 404.5rem;
 }
 
 #final{
 width: 16.9rem;
 height: 5.8rem;
-left: 33.5rem;
-top: 404.5rem;
-}
+} 
 
 #pre{
 width: 17.7rem;
 height: 5.8rem;
-left: 54.4rem;
-top: 404.5rem;
-}
-
-#avid{
-width: 12.9rem;
-height: 5.8rem;
-left:76.1rem;
-top: 404.5rem;
 }
 
 .export{
-position: absolute;
 width: 18.1rem;
 height: 6.4rem;
-left: 66.9rem;
-top: 417.1rem;
+margin-top: 6.8rem;
 
 background: #FFE0E2;
 border-radius: 3rem;
@@ -134,6 +79,31 @@ border-style: none;
 font-weight: 600;
 font-size: 2.4rem;
 line-height: 2.9rem;
-
 color: #FF1B47;
 }
+
+
+@media (min-width: 700px){
+.formatbtns{
+margin-left: 11rem;
+margin-right: 7rem;
+}}
+
+@media (min-width: 1000px){
+.formatbtns{
+margin-left: 14.5rem;
+}}
+
+@media (max-width: 450px){
+.formatbtns{
+margin-left: 6rem;
+}
+.format{
+margin-left: 1rem;
+margin-right: 1rem;
+}}
+
+@media (max-width: 350px){
+#final{
+height: 6rem;
+}}
